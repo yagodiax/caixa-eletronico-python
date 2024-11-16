@@ -1,7 +1,7 @@
 # Váriaveis
 usuario = "yago"
 senha = 1234
-saldo = 0
+saldo = 0.00
 
 # Função que verifica o Login
 def login(lusuario, lsenha):
@@ -43,7 +43,8 @@ def principal():
 
 # Função para verificar o saldo
 def verificar_saldo():
-    print("Seu saldo Atual é de: R$ {saldo:.2f}")
+    global saldo
+    print(f"Seu saldo Atual é de: R$ {saldo:.2f}")
 
 # Função para fazer deposito
 def deposito(valor):
