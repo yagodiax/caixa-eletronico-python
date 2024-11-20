@@ -1,0 +1,1 @@
+Este projeto é uma simulação de um caixa eletrônico desenvolvida em Python. Ele permite aos usuários realizar operações básicas como consulta de saldo, saques e depósitos, e mantém as informações de saldo atualizadas.
